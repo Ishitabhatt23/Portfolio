@@ -1,0 +1,33 @@
+.navbar{
+    height: 5rem;
+   width:100vw;
+   max-width: 95rem;;
+    margin:0 auto;
+    padding: 1rem 2rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+z-index:3;
+}
+.logo{
+    object-fit: cover;
+    height:9rem;
+    width:9rem;
+}
+.list{
+    margin:1rem;
+    cursor: pointer;
+    padding-right:1rem;
+    align-items: space-between;
+    font-size:1.2rem;
+}
+.list a:hover{
+    cursor:pointer;
+}
+.list:hover{
+    color: #FA0403;
+    padding-bottom:0.5rem;
+    border-bottom: 3px solid  #FA0403;
+}
