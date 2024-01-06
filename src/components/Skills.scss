@@ -1,0 +1,164 @@
+.skill-columns {
+  display: flex;
+  flex-wrap: wrap; /* Allow icons to wrap to the next row */
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.Skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 19%;
+  margin: 10px; /* Add margin for spacing between icons */
+}
+.Skills img.sql-icon,
+.Skills img.c-icon,
+.Skills img.powerAutomate-icon,
+.Skills img.devops-icon,
+.Skills img.powerBi-icon {
+  font-size: 10rem;
+  margin-bottom: 5px;
+  margin-top: 2.5rem;
+  width: 35%;
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+ 
+}
+.Skills img.sql-icon{
+  background-color: white;;
+}
+.html-icon,
+.github-icon,
+.css-icon,
+.js-icon,
+.salesforce-icon,
+.Sass-icon,
+.Python-icon
+
+ {
+  font-size: 10rem;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 2.5rem;
+}
+
+.github-icon:hover {
+  color: black;
+}
+.salesforce-icon:hover{
+  color:#0B9CD9;
+
+}
+.Python-icon:hover{
+color:#356D9D;
+}
+
+.js-icon:hover {
+  color: #ffcc00;
+}
+.Sass-icon:hover{
+color:#C66394;
+}
+
+
+.css-icon:hover {
+  color: #2e4ad7;
+}
+
+.html-icon:hover {
+  color: #ca5635;
+}
+
+.SkillName {
+  font-size: large;
+}
+
+
+@media only screen and (max-width: 550px) {
+.Header{
+    font-size:2rem;
+}
+.Skills {
+  flex-basis: calc(33.33% - 20px); /* Adjust the percentage as needed */
+}
+
+.html-icon,
+.github-icon,
+.css-icon,
+.js-icon,
+.salesforce-icon,
+.Sass-icon,
+.Python-icon{
+  font-size: 8rem;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 2.5rem;
+}
+.Skills img.sql-icon,
+.Skills img.c-icon,
+.Skills img.powerAutomate-icon,
+.Skills img.devops-icon,
+.Skills img.powerBi-icon {
+  margin-bottom: 5px;
+    margin-top: 2.5rem;
+    width: 8rem;
+    max-width: 100%;
+    height: auto;
+
+
+ 
+}
+  }
+  @media only screen and (min-width: 551px) and (max-width: 768px) {
+  .Header{
+    font-size: 2.5rem;
+  }
+  .Skills img.sql-icon,
+  .Skills img.c-icon,
+  .Skills img.powerAutomate-icon,
+  .Skills img.devops-icon,
+  .Skills img.powerBi-icon {
+    width: 28%; /* Adjust the width for medium screens */
+  }
+
+  .html-icon,
+  .github-icon,
+  .css-icon,
+  .js-icon,
+  .salesforce-icon,
+  .Sass-icon,
+  .Python-icon {
+    font-size: 9rem; /* Adjust the font size for medium screens */
+  }
+
+  }
+  @media only screen and (min-width: 769px) and (max-width: 990px) {
+    .Header{
+        font-size: 5.5rem;
+      }
+      .Skills img.sql-icon,
+      .Skills img.c-icon,
+      .Skills img.powerAutomate-icon,
+      .Skills img.devops-icon,
+      .Skills img.powerBi-icon {
+        font-size: 10rem;
+        margin-bottom: 5px;
+        margin-top: 2.5rem;
+        width: 45%;
+        max-width: 100%; /* Make the image responsive */
+        height: auto; /* Maintain aspect ratio */
+       
+      }
+
+  .html-icon,
+  .github-icon,
+  .css-icon,
+  .js-icon,
+  .salesforce-icon,
+  .Sass-icon,
+  .Python-icon {
+    font-size: 10rem; /* Adjust the font size for large screens */
+  }
+
+  }
