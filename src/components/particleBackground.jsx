@@ -40,7 +40,7 @@ import { loadFull } from "tsparticles";
             },
             repulse: {
                 distance: 200,
-                duration: 0.4,
+                duration: 0.2,
             },
         },
     },
@@ -52,7 +52,7 @@ import { loadFull } from "tsparticles";
             color: "#ffffff",
             distance: 150,
             enable: true,
-            opacity: 0.5,
+            opacity: 0.2,
             width: 1,
         },
         move: {

@@ -1,0 +1,112 @@
+body {
+  overflow: hidden;
+}
+.Header{
+    margin-top: 2%;
+    font-size: 4rem;;
+    color:red;
+     border-bottom:solid  white;
+     border-top:solid  white;
+}
+.AboutMepara{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 1.8rem;
+  text-align: left;
+  margin-top: 2rem;
+  justify-content: left;
+  position: absolute;
+  width: 90%;
+  max-width: 90rem;
+  line-height: 1.5;
+  
+  }
+  .img {
+    position: absolute;
+  right: 0; /* Align to the right */
+  margin-top: -4.5rem; /* Adjust the vertical position */
+  }
+  
+  .img img {
+    max-width: 100%; /* Ensure the image does not exceed its container width */
+  }
+  
+
+
+
+@media only screen and (max-width: 550px) {
+.Header{
+    font-size:2rem;
+}
+.img{
+ width:100%;
+}
+.AboutMepara{
+  font-size: 1.6rem;
+  width:50%;
+}
+  }body {
+  overflow: hidden;
+}
+.Header{
+    margin-top: 2%;
+    font-size: 4rem;;
+    color:red;
+     border-bottom:solid  white;
+     border-top:solid  white;
+}
+.AboutMepara{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 1.8rem;
+  text-align: left;
+  margin-top: 2rem;
+  justify-content: left;
+  position: absolute;
+  width: 90%;
+  max-width: 90rem;
+  line-height: 1.5;
+  
+  }
+  .img {
+    position: absolute;
+  right: 0; 
+  margin-top: -4.5rem; 
+  }
+  
+  .img img {
+    max-width: 100%; 
+  }
+  
+
+
+  @media only screen and (max-width: 550px) {
+    .Header {
+      font-size: 2rem;
+    }
+    .img {
+      width: 80%;
+      position: static; 
+      margin-top: 1rem;
+    }
+    .AboutMepara {
+      font-size: 1.3rem;
+      width: 100%; 
+    }
+  }
+  
+  @media only screen and (min-width: 551px) and (max-width: 768px) {
+    .Header {
+      font-size: 2.5rem;
+    }
+    .img {
+      width: 70%; 
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 990px) {
+    .Header {
+      font-size: 5.5rem;
+    }
+    .img {
+      width: 50%; 
+    }
+  }

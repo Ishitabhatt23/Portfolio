@@ -1,22 +1,65 @@
-import React from 'react'
+import React, { useState } from "react";
+import { FaBars } from "react-icons/fa";
+import { HiX } from "react-icons/hi";
+import { Link } from "react-router-dom";
 import logo from '../assets/Screenshot_2023-11-25_143828-removebg-preview (1).png'
-import {Link} from 'react-scroll';
-import './Navbar.css'
- const Navbar = () => {
+import "./Navbar.scss"
+const data = [
+  {
+    label: "HOME",
+    to: "/",
+  },
+  {
+    label: "ABOUT ME",
+    to: "/about",
+  },
+  {
+    label: "SKILLS",
+    to: "/skills",
+  },
+
+  {
+    label: "CONTACT",
+    to: "/contact",
+  },
+];
+
+const Navbar = () => {
+  const [toggleIcon, setToggleIcon] = useState(false);
+
+  const handleToggleIcon = () => {
+    setToggleIcon(!toggleIcon);
+  };
   return (
-    <nav className="navbar">
-      <img src={logo} alt='logo' className="logo"/>
-      <div className="menu">
-      <Link to="home" className="list" smooth={true} duration={500}>
-          Home
-        </Link>
-      <Link className="list">About</Link>
-      <Link className="list">Projects</Link>
-      <Link className="list">Contact</Link>
-      
-      </div>
-    </nav>
-   
-  )
-}
+    <div>
+      <nav className="navbar">
+        <div className="navbar__container">
+         
+        <Link to="/" className="navbar__container__logo" size={30}>
+            <img src={logo} alt="Logo" height={50} />
+          </Link>
+        
+        </div>
+        <ul
+          className={`navbar__container__menu ${toggleIcon ? "active" : ""} `}
+        >
+          {data.map((item, key) => (
+            <li key={key} className="navbar__container__menu__item">
+              <Link
+                className="navbar__container__menu__item__links"
+                to={item.to}
+              >
+                {item.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <div className="nav-icon" onClick={handleToggleIcon}>
+          {toggleIcon ? <HiX size={30} /> : <FaBars size={30} />}
+        </div>
+      </nav>
+    </div>
+  );
+};
+
 export default Navbar;
