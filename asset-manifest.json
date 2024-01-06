@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8bb5f137.css",
+    "main.css": "/Portfolio/static/css/main.149d78dd.css",
     "main.js": "/Portfolio/static/js/main.03863971.js",
     "static/media/def898e2-41d0-4734-9a91-65ebf0a4db4c-removebg-preview.png": "/Portfolio/static/media/def898e2-41d0-4734-9a91-65ebf0a4db4c-removebg-preview.5d2542df353c8413d7b0.png",
     "static/media/Ishitabhatt-resume.pdf": "/Portfolio/static/media/Ishitabhatt-resume.e19d551bc692deb8e041.pdf",
@@ -10,11 +10,11 @@
     "static/media/1200px-New_Power_BI_Logo.svg.png": "/Portfolio/static/media/1200px-New_Power_BI_Logo.svg.8636c6b7f1556aeb863f.png",
     "static/media/sql-server.png": "/Portfolio/static/media/sql-server.d0875781b3030e385cc1.png",
     "index.html": "/Portfolio/index.html",
-    "main.8bb5f137.css.map": "/Portfolio/static/css/main.8bb5f137.css.map",
+    "main.149d78dd.css.map": "/Portfolio/static/css/main.149d78dd.css.map",
     "main.03863971.js.map": "/Portfolio/static/js/main.03863971.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bb5f137.css",
+    "static/css/main.149d78dd.css",
     "static/js/main.03863971.js"
   ]
 }
