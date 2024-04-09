@@ -30,7 +30,7 @@ const Home = () => {
         </div>
 
         <div className='home_resume'>
-          <a href={myPDF} download="Ishita Bhatt_Resume.pdf">
+          <a href={myPDF} download="Ishita Bhatt-Resume (1).pdf">
             Download Resume
           </a>
         </div>
